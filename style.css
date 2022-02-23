@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;600&display=swap');
+body{
+    font-family: 'Fira Code', monospace;
+}
+
+.takenotes{
+    background: #FFE8D6;
+    width: auto;
+    height: 700px;
+    padding: 50px;
+
+    text-align: center;
+    border-radius: 10px;
+}
+.takenotes h2{
+    font-family: 'Fira Code', monospace;
+    font-weight: bold;
+    font-size: 24px;
+    color: #6B705C;
+}
+.takenotes input{
+    background-color: #DDBEA9;
+    margin: 30px 0px;
+    color: #000;
+}
+
+.takenotes textarea{
+    background-color: #DDBEA9;
+}
+
+#addNoteBtn{
+    background-color: #B7B7A4;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    
+}
+#addNoteBtn:hover{
+    background-color: #757573;
+    color: white;
+
+}
+
+.mainList{
+    background-color:#B7B7A4;
+    width: auto;
+    height: 700px;
+    border-radius: 5px;
+    padding: 50px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:justify;
+    
+}
+.noteslist{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+.noteslist h5{
+    color:#B7B7A4;
+}
+.noteslist h3{
+    font-weight: bold;
+    font-size: 25px;
+}
+.noteslist p{
+    font-size: 16px;
+    
+}
+.bottom-read p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media (min-width:768px) {
+    .takenotes{
+        padding: 20px;
+    }
+    .mainList{
+        padding: 10px;
+    }
+    .noteslist h5{
+        font-size: 14px;
+    }
+    .noteslist h3{
+        font-size: 18px;
+    }
+    .noteslist .img-border{
+        width: 150px;
+    }
+}
+
+@media (max-width: 592px) {
+    .mainList{
+        height: 800px;
+        padding: 50px;
+        
+    }
+}
